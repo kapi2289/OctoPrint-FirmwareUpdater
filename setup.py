@@ -57,7 +57,7 @@ plugin_ignored_packages = []
 # Example:
 #     plugin_requires = ["someDependency==dev"]
 #     additional_setup_parameters = {"dependency_links": ["https://github.com/someUser/someRepo/archive/master.zip#egg=someDependency-dev"]}
-additional_setup_parameters = {"dependecy_links": ["https://github.com/p3p/pyheatshrink/releases/download/0.3.3/pyheatshrink-pip.zip#egg=pyheatshrink"]}
+additional_setup_parameters = {"dependency_links": ["https://github.com/p3p/pyheatshrink/releases/download/0.3.3/pyheatshrink-pip.zip#egg=pyheatshrink"]}
 
 ########################################################################################################################
 
