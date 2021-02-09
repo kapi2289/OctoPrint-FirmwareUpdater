@@ -44,7 +44,7 @@ plugin_requires = ["pyserial>=3.5","marlin-binary-protocol>=0.0.7"]
 plugin_additional_data = []
 
 # Any additional python packages you need to install with your plugin that are not contains in <plugin_package>.*
-plugin_addtional_packages = ["https://github.com/p3p/pyheatshrink/releases/download/0.3.3/pyheatshrink-pip.zip"]
+plugin_addtional_packages = []
 
 # Any python packages within <plugin_package>.* you do NOT want to install with your plugin
 plugin_ignored_packages = []
@@ -57,7 +57,7 @@ plugin_ignored_packages = []
 # Example:
 #     plugin_requires = ["someDependency==dev"]
 #     additional_setup_parameters = {"dependency_links": ["https://github.com/someUser/someRepo/archive/master.zip#egg=someDependency-dev"]}
-additional_setup_parameters = {}
+additional_setup_parameters = {"dependecy_links": ["https://github.com/OctoPrint/OctoPrint-FirmwareUpdater/archive/deps-test.zip"]}
 
 ########################################################################################################################
 
